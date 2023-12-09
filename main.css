@@ -1,0 +1,152 @@
+*{
+    margin:0px;
+    padding:1px;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: rgba(219, 247, 247, 0.963);
+   
+    
+}
+.logo img{
+    justify-content: start;
+    width: 4%;
+    height: 6%;
+    left: 0%;
+}
+.logo{
+    padding-top: 20px;
+    padding-left: 0px;
+
+}
+h6{
+    padding-left: -10px;
+}
+html {
+	overflow-y: scroll; 
+}
+button{
+  width: 7%;
+  height: 26px;
+  right: 5%;
+  background-color: whitesmoke(5, 110, 158, 0.747);
+  color: black;
+  position:absolute;
+  top: 45px;
+
+    }
+    button:hover {
+      background-color: #1ab188;
+  }
+    .form {
+        background: rgba(19, 35, 47, 0.9);;
+        width: 68%;
+        padding: 45px;
+        max-width: 1000px;
+        margin: 40px auto;
+        border-radius: 4px;
+       /* box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);*/
+    }
+    .tab-group {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 40px 0;
+    }
+    li a {
+        display:block;
+        text-decoration:none;
+        padding:15px;
+        background:rgba(gray-light,.25);
+        color:gray-light;
+        font-size:20px;
+        float:left;
+        width:50%;
+        text-align:center;
+        cursor:pointer;
+        transition:transform .5s ease;
+        &:hover {
+          background:main-dark;
+          color:white;
+        }
+      }
+      .active a {
+        background:main;
+        color:white;
+      }
+   
+    
+    
+    .tab-content > div:last-child {
+      display:none;
+    }
+    
+    
+    h1 {
+      text-align:center;
+      color:#1ab188;
+      font-weight:thin;
+      margin:40px;
+    }
+  
+    section {
+      padding: 20px;
+      margin: 20px;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+  
+  select, input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+  }
+    .field-wrap {
+      position:relative;
+      margin-bottom:40px;
+    }
+    
+    .top-row {
+      &:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    
+    }
+    .tab-group .active a {
+        background: #1ab188;
+        color: #ffffff;
+    }
+    a {
+        text-decoration: none;
+        color:black;
+        transition: .5s ease;
+    }
+    .tab-group li a {
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+        background: rgba(160, 179, 176, 0.25);
+        color: #a0b3b0;
+        font-size: 20px;
+        float: left;
+        width: 50%;
+        text-align: center;
+        cursor: pointer;
+        transition: .5s ease;
+    }
+    html {
+        font-family: sans-serif;
+        line-height: 1.15;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%;
+    }
+   

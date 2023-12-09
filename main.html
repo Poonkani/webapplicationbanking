@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking</title>
+    <link rel="stylesheet" href="main.css">
+   
+</head>
+<body>
+    <div>
+        <div class="logo">
+         
+                <img src="cd_logo1.png" alt="logo"><h6>Crystal Delta</h6>
+                <div><td><button><a href="intex.html">Logout</a></button></td></div>
+                <hr>
+        </div>
+        <div class="cname">
+            <h2>Greetings Shyam!</h2>
+        </div>
+        <div class="form">
+            <ul class="tab-group">
+                <li class="tab active"><a href="#Account summary">Account summary</a></li>
+                <li class="tab"><a href="new.html">Transfer funds</a></li>
+              </ul>
+              
+              <div class="tab-content">
+                <div id="signup">   
+                  <h1>Account summary</h1>
+                <section>
+                    <h3>Savings Account</h3>
+                    <br>
+                    <select name="account" id="account">
+                        <option value="">Closing Balance:20,500</option>
+                    </select>
+                </section>
+            
+                <section>
+                    <h3>Current Account</h3>
+                    <select name="beneficiary" id="beneficiary">
+                        <option value="">Closing Balance:24,583</option>
+                    </select>
+                </section>
+            
+                <section>
+                    <h3>Credit Account</h3>
+                    <select name="beneficiary" id="beneficiary">
+                      <option value="">Closing Balance:16,792</option>
+                  </select>
+                </section>
+              
+                </div>
+                
+                <div id="login">   
+                  <h1>Welcome Back!</h1>
+                  
+                  <form action="main2.html" method="post">
+                  
+                    <div class="field-wrap">
+                    <label>
+                      Email Address<span class="req">*</span>
+                    </label>
+                    <input type="email"required autocomplete="off"/>
+                  </div>
+                  
+                  <div class="field-wrap">
+                    <label>
+                      Password<span class="req">*</span>
+                    </label>
+                    <input type="password"required autocomplete="off"/>
+                  </div>
+                  </form>
+        
+                </div>
+                
+              </div>
+              
+          </div>    
+          <script src="main.js"></script>    
+</body>
+</html>
